@@ -1,0 +1,41 @@
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: msrishav-28
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SNAKE_ON_VALUE_COLOR_0: "#161b22"
+          SNAKE_ON_VALUE_COLOR_1: "#0e4429"
+          SNAKE_ON_VALUE_COLOR_2: "#006d32"
+          SNAKE_ON_VALUE_COLOR_3: "#26a641"
+          SNAKE_ON_VALUE_COLOR_4: "#39d353"
+          SNAKE_COLOR: "#58a6ff"
+          BACKGROUND_COLOR: "#0d1117"
+
+      - name: Commit and push snake outputs
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg"
+          message: "chore: update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
