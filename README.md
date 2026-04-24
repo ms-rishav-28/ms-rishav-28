@@ -14,11 +14,11 @@
 I am a third-year B.Tech ECE student at Christ University, Bengaluru, specializing in AI and ML, with graduation targeted for May 2027. My research spans physics-informed neural networks for defense fault prognostics at DRDO CVRDE, transformer-ensemble computer vision at IEEE Computer Society Bangalore, and ballistic materials ML presented at IIT Hyderabad. I am currently interning at Power Grid Corporation of India (PGCIL), IT Department, Patna. My current research goal is a Q2 2026 journal submission focused on AVR predictive maintenance.
 
 <table>
-  <tr><td><span style="color:#8b949e">🎓 Education</span></td><td>B.Tech ECE (AI &amp; ML) · Christ University</td></tr>
-  <tr><td><span style="color:#8b949e">📍 Location</span></td><td>Bengaluru, India</td></tr>
-  <tr><td><span style="color:#8b949e">🔬 Currently</span></td><td>PGCIL Internship · AVR ML manuscript</td></tr>
-  <tr><td><span style="color:#8b949e">📄 Research</span></td><td>DRDO CVRDE · IEEE CS · IIT Hyderabad</td></tr>
-  <tr><td><span style="color:#8b949e">📬 Reach me</span></td><td>ms.rishav289@gmail.com</td></tr>
+  <tr><td><span style="color:#8b949e"> Education</span></td><td>B.Tech ECE (AI &amp; ML) · Christ University</td></tr>
+  <tr><td><span style="color:#8b949e"> Location</span></td><td>Bengaluru, India</td></tr>
+  <tr><td><span style="color:#8b949e"> Currently</span></td><td>PGCIL Internship · AVR ML manuscript</td></tr>
+  <tr><td><span style="color:#8b949e"> Research</span></td><td>DRDO CVRDE · IEEE CS · IIT Hyderabad</td></tr>
+  <tr><td><span style="color:#8b949e"> Reach me</span></td><td>ms.rishav289@gmail.com</td></tr>
 </table>
 
 ## Stack
@@ -107,28 +107,28 @@ I am a third-year B.Tech ECE student at Christ University, Bengaluru, specializi
 
 ## Selected Work
 
-**[DRDO AVR Predictive Maintenance Framework](https://github.com/msrishav-28/DRDO-AVR-ml-prediction)** — `Python · PyTorch · PINN · WGAN-GP · PPO · Optuna · W&B`  
+**[DRDO AVR Predictive Maintenance Framework](https://github.com/msrishav-28)** — `Python · PyTorch · PINN · WGAN-GP · PPO · Optuna · W&B`  
 Physics-Informed Neural Network framework for multi-horizon catastrophic failure prediction in combat vehicle DC generator AVR systems.  
 It embeds governing thermal-electrical PDEs directly into the backpropagation graph and uses WGAN-GP to generate MIL-STD-compliant synthetic sensor data for arctic, desert-heat, and artillery-firing conditions.  
 *Certified by DRDO CVRDE. Manuscript in preparation for Q2 2026 journal submission.*
 
 ---
 
-**[Ballistic Property Prediction — Ceramic Armor ML](https://github.com/ms-rishav-28/material-v2)** — `Python · scikit-learn · SHAP · conformal prediction · Magpie`  
+**[Ballistic Property Prediction — Ceramic Armor ML](https://github.com/ms-rishav-28)** — `Python · scikit-learn · SHAP · conformal prediction · Magpie`  
 ML pipeline that predicts Vickers hardness of ceramic armor composites from composition alone, without DFT at inference time.  
 It is built on 132 Magpie compositional descriptors and a gradient-boosted ensemble (R² = 0.69, MAE = 1.09 GPa) with 97% conformal prediction coverage.  
 *Poster — IIM ATM 2025, IIT Hyderabad (International Conference on Advanced Materials).*
 
 ---
 
-**[Deepfake Detection — Transformer CV Ensemble](https://github.com/msrishav-28)** — `PyTorch · ViT · DeiT · Swin Transformer · Grad-CAM · OpenCV`  
+**[Deepfake Detection — Transformer CV Ensemble](https://github.com/ms-rishav-28)** — `PyTorch · ViT · DeiT · Swin Transformer · Grad-CAM · OpenCV`  
 Ensemble deepfake detection system combining three transformer architectures chosen for complementary spatial attention structure.  
 A logistic meta-classifier is trained on Grad-CAM spatial statistics plus base-model logits, reaching 90%+ accuracy on ~8,000 frames from CelebDF and FF++.  
 *IEEE Computer Society Bangalore Chapter research internship.*
 
 ---
 
-**[Agricultural IoT & AI Advisory Platform (Nila-Shoshsho)](https://github.com/msrishav-28)** — `Flask · React Native · LangChain · RAG · MongoDB · Groq`  
+**[Agricultural IoT & AI Advisory Platform (Nila-Shoshsho)](https://github.com/ms-rishav-28)** — `Flask · React Native · LangChain · RAG · MongoDB · Groq`  
 Agentic RAG advisory platform for Indian farmers that merges weather, soil, and market price streams into one LLM decision engine.  
 The deployed system includes an 8-language voice-navigated mobile interface, crop disease computer vision, and dynamic market time-series forecasting.  
 *Deployed.*
@@ -146,9 +146,7 @@ The deployed system includes an 8-language voice-navigated mobile interface, cro
 
 ## Currently
 
-- 🔌 Interning at **Power Grid Corporation of India**, IT Dept, Patna (Apr–May 2026)
-- 📝 Preparing a journal manuscript on physics-informed AVR fault prognostics
-- 🔍 Extending YOLOv8 fine-tuning on VisDrone2019-DET for small-object aerial detection
+-  Interning at **Power Grid Corporation of India**, IT Dept, Patna (Apr–May 2026)
 
 <!-- Update this section manually each semester to keep it current. -->
 
